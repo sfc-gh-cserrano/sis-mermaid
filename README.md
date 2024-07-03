@@ -21,8 +21,12 @@ mermaid_code = """
  b-->c
  a-->d
  """
-mmd.sis_mermaid(mermaid_source=mermaid_code)
+mmd.sis_mermaid(mermaid_source=mermaid_code,
+               scrolling = True, #Optional - Defaults to True
+               height = 900 #Optional - Defaults to 900
+               )
 ```
+
 
 To specify a new path for the mermaid.js file in your application stage, update
 the `mermaid_js_file` attribute for the SiSMermaid class.
