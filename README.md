@@ -2,12 +2,14 @@
 
 ### Loads Mermaid.js into Streamlit-in-Snowflake for easy diagrams.
 ---
-Requirements:
+**Requirements**:
+
 - Upload the provided `mermaid.min.js` and `SiSMermaid.py` files into the Snowflake Stage where your Streamlit-in-Snowflake app is hosted.
 - Adjust the relative path if needed during class initialization (optional).
 
 ---
-Usage:
+**Usage**:
+
 Import and use as follows:
 ```python
 from SiSMermaid import SiSMermaid
