@@ -8,8 +8,10 @@ Requirements:
 
 ---
 Usage:
-If mermaid.js file is located at root level with app and module:
+Import and use as follows:
 ```python
+from SiSMermaid import SiSMermaid
+
 mmd=SiSMermaid()
 mermaid_code = """
  flowchart LR;
